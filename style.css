@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;800&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+}
+
+.App {
+  align-items: center;
+  background-color: #dbdad8;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.phone {
+  background-color: #fff;
+  border-radius: 25px;
+  height: 560px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.phone-content {
+  box-sizing: border-box;
+  padding: 20px;
+  position: absolute;
+}
+
+.pre-title {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 52px;
+  text-align: center;
+  width: 100%;
+}
+
+.title {
+  display: block;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  text-align: center;
+  width: 100%;
+}
+
+.cook {
+  margin-top: -8px;
+}
+
+.bottomSheet {
+  position: absolute;
+  height: 100%;
+}
+
+.drag-area {
+  height: 500px;
+  opacity: 0.5;
+  position: absolute;
+  width: 300px;
+  z-index: 1;
+}
+
+.drag {
+  cursor: pointer;
+}
+
+.container {
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+}
+
+.content {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.icon {
+  left: 40px;
+  position: absolute;
+  top: 16px;
+  width: 20px;
+}
+
+.close {
+  left: 56px;
+  position: absolute;
+  top: 17px;
+}
+
+.content-title {
+  margin-bottom: 24px;
+}
+
+.content-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.content-body {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
